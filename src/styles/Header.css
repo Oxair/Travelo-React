@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.075), rgba(0, 0, 0, 0.849)), url(https://magazine.zarpo.com.br/wp-content/uploads/2019/02/Caribe-Miami-Cidade-do-Panama.jpg);
+    background-position: 20% 85%;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: content-box;
+    /* mix-blend-mode: saturation; */
+
+}
+
+@media screen and (min-width: 1300px) {
+    .header {
+        background-position: 10% 80%;
+    }
+}
+
+
+.headertext {
+    background: white;
+    letter-spacing: 7px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: sans-serif;
+    font-size: 6em;
+    text-transform: uppercase;
+    text-shadow: 4px 3px 0px rgb(41, 133, 82, 0.3);
+}
+
+
+
+.nav {
+    background-color: rgb(41, 133, 82);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    bottom: -40px;
+    text-transform: uppercase;
+}
